@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Device: Motorola Moto G75 5G
+        Android: 14/15+ depending on device update
+
+        Use Landscape mode.
+        In Landscape mode, X and Y are inverted.
+
+        Portrait:
+        Device Width:  X => 1080
+        Device Height: Y => 2388
+
+        Landscape:
+        Device Width:  X => 2388
+        Device Height: Y => 1080
+
+        Add android:background="@color/colorAlphaWhite"
+        to the RelativeLayout to help with adjustments.
+
+        Add the android:background="@color/colorAlphaWhite" in layout ( RelativeLayout ) to help the adjusts
+    -->
+
+    <!-- Board -->
+    <dimen name="boardWidth" tools:ignore="PxUsage">2020px</dimen>
+    <dimen name="boardHeight" tools:ignore="PxUsage">897px</dimen>
+    <dimen name="boardMarginBottom" tools:ignore="PxUsage">0.0099px</dimen>
+
+    <!-- Canvas -->
+    <dimen name="canvasWidth" tools:ignore="PxUsage">1818px</dimen>
+    <dimen name="canvasHeight" tools:ignore="PxUsage">731px</dimen>
+    <dimen name="canvasMarginTop" tools:ignore="PxUsage">82px</dimen>
+
+    <!-- Buttons -->
+    <dimen name="buttonWidth" tools:ignore="PxUsage">280px</dimen>
+    <dimen name="buttonHeight" tools:ignore="PxUsage">75px</dimen>
+    <dimen name="buttonNormalMarginStart" tools:ignore="PxUsage">175px</dimen>
+    <dimen name="buttonCloseMarginEnd" tools:ignore="PxUsage">170px</dimen>
+    <dimen name="buttonTrickshotSecondLineMarginEnd" tools:ignore="PxUsage">170px</dimen>
+</resources>
